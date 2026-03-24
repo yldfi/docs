@@ -14,5 +14,5 @@ yld provides automated yield vaults on Ethereum built on [Yearn V3 yVault techno
 
 * [Website](https://yldfi.co)
 * [GitHub](https://github.com/yldfi)
-* [Telegram](https://t.me/yld_fi)
+* [Telegram](https://t.me/yld_official)
 * [Contracts](contracts/addresses.md)
