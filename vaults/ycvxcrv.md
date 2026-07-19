@@ -1,6 +1,8 @@
 # ycvxCRV Vault
 
-The ycvxCRV vault accepts [cvxCRV](https://etherscan.io/address/0x62B9c7356A2Dc64a1969e19C23e4f579F9810Aa7) deposits and auto-compounds staking rewards from [Convex Finance](https://www.convexfinance.com). ycvxCRV can be used as collateral on LlamaLend to borrow crvUSD. If you don't need collateral functionality, consider [yscvxCRV](yscvxcrv.md) for a lower fee.
+> ⚠️ **Deprecated** — Curve DAO is sunsetting ycvxCRV collateral on LlamaLend v1. Deposits and zap-ins to this vault are disabled in the yld app. If you hold ycvxCRV, exchange to [yscvxCRV](yscvxcrv.md) to continue earning yield on your cvxCRV. See the [Curve forum post](https://gov.curve.finance/t/llamalend-v1-market-deprecation-plan/11075) and [DAO vote](https://www.curve.finance/dao/ethereum/proposals/1422-ownership) for details. Existing LlamaLend positions can still be managed — the sections below on collateral, oracle, and liquidation risk remain accurate for as long as the market exists.
+
+The ycvxCRV vault accepts [cvxCRV](https://etherscan.io/address/0x62B9c7356A2Dc64a1969e19C23e4f579F9810Aa7) deposits and auto-compounds staking rewards from [Convex Finance](https://www.convexfinance.com). ycvxCRV could be used as collateral on LlamaLend to borrow crvUSD, but new deposits and borrowing are disabled as this market winds down — see the deprecation notice above. If you don't need collateral functionality, use [yscvxCRV](yscvxcrv.md) instead, which has a lower fee.
 
 ## Overview
 
@@ -16,7 +18,7 @@ The ycvxCRV vault accepts [cvxCRV](https://etherscan.io/address/0x62B9c7356A2Dc6
 
 ## How It Works
 
-1. **Deposit** - Deposit cvxCRV and receive ycvxCRV vault shares
+1. **Deposit** - Deposit cvxCRV and receive ycvxCRV vault shares (disabled — see deprecation notice above)
 2. **Stake** - Your cvxCRV is staked on [Convex Finance](https://www.convexfinance.com) via the underlying strategy
 3. **Harvest** - Anyone can call `report()` on the strategy to claim crvUSD rewards
 4. **Compound** - Anyone can call `kickAuction(token)` to auction off rewards for more underlying asset (cvxCRV) for re-deposit
@@ -27,6 +29,8 @@ The ycvxCRV vault accepts [cvxCRV](https://etherscan.io/address/0x62B9c7356A2Dc6
 Harvesting and compounding are permissionless. Auctions only trigger when reward tokens exceed their `minAmountToSell` threshold (10 crvUSD). Use the [Permissionless Keeper](https://etherscan.io/address/0x52605bbf54845f520a3e94792d019f62407db2f8) to `report()` rewards on the strategy and `process_report()` to report profits on the vault.
 
 ## LlamaLend Collateral
+
+> New deposits and borrowing against ycvxCRV are disabled while this market is sunset. This section documents behavior for existing positions only.
 
 ycvxCRV can be used as collateral on [Curve LlamaLend](https://curve.finance/lend/#/ethereum/markets/one-way-market-35/) to borrow crvUSD. This allows you to:
 
