@@ -9,6 +9,7 @@ yld provides automated yield vaults on Ethereum built on [Yearn V3 yVault techno
 | [ycvxCRV](vaults/ycvxcrv.md)   | cvxCRV | Convex auto-compounder         | 20% (15% LlamaLend Lenders + 5% yld) | Yes                  |
 | [yscvxCRV](vaults/yscvxcrv.md) | cvxCRV | Convex auto-compounder         | 5% (yld)                             | No                   |
 | [yscvgCVX](vaults/yscvgcvx.md) | cvgCVX | Tangent LiquidBoost compounder | 5% (yld)                             | No                   |
+| [ysCVX](vaults/yscvx.md)       | CVX    | Convex auto-compounder         | 5% (yld)                             | No                   |
 
 ## Quick Links
 
