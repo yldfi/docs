@@ -20,7 +20,7 @@ yld vaults are built on Yearn V3's tokenized strategy architecture, which has be
 
 The yld-specific contracts have **not been independently audited** as the strategies are intentionally simple and minimal:
 
-- **No novel logic**: Deposits go directly to Convex or Tangent staking; withdrawals pull from the respective protocol. No complex routing, leverage, or cross-protocol interactions.
+- **No novel logic**: Deposits go directly to Convex staking; withdrawals pull from the respective protocol. No complex routing, leverage, or cross-protocol interactions.
 - **Standard integrations**: Uses battle-tested Convex and Curve contracts that have been live for years with billions in TVL.
 - **Yearn's audited base**: The TokenizedStrategy core (share accounting, ERC-4626 compliance, fee logic) is inherited directly from Yearn V3's audited code—yld doesn't modify these internals.
 - **Permissionless operations**: Harvesting and compounding can be called by anyone; no privileged keeper logic.
@@ -47,14 +47,14 @@ The following contracts are governed by NullGovernance:
 
 The following contracts are currently managed by the [yld Multisig](https://etherscan.io/address/0x8baecb301FD723Ff35FB1D9a6d595cAD35618A6f):
 
-- yscvgCVX Strategy
+- yscvgCVX Strategy (sunset — see [ycvgCVX & yscvgCVX](vaults/yscvgcvx.md))
 
 ## Risks
 
 DeFi always carries risks. Never deposit more than you can afford to lose.
 
 - **Smart Contract Risk** - Bugs may exist despite audited foundations
-- **Underlying Protocol Risk** - yld depends on Convex, Curve, and Tangent Finance (LiquidBoost)
+- **Underlying Protocol Risk** - yld depends on Convex and Curve
 
 ## Contract Verification
 
@@ -71,4 +71,4 @@ By using yld, you acknowledge that:
 - You should never deposit more than you can afford to lose
 - You have read and agree to the [Terms and Conditions](https://yldfi.co/terms)
 
-Yearn Finance does not endorse, audit, or maintain yld vaults. Tangent Finance does not endorse, audit, or maintain yld vaults.
+Yearn Finance does not endorse, audit, or maintain yld vaults.

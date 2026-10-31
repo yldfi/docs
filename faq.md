@@ -20,13 +20,15 @@ All vaults are ERC-4626 compliant and auto-compound rewards.
 
 **"y" vaults** (e.g. ycvxCRV) are wrapper vaults that can be used as **collateral on LlamaLend**. They have a higher fee because a portion is distributed to LlamaLend lenders to encourage borrowing liquidity.
 
-**"ys" vaults** (e.g. yscvxCRV, yscvgCVX) are the underlying strategies that can be deposited into directly. They have **lower fees** but cannot be used as LlamaLend collateral.
+**"ys" vaults** (e.g. yscvxCRV, ysCVX) are the underlying strategies that can be deposited into directly. They have **lower fees** but cannot be used as LlamaLend collateral.
 
 | Vault    | Type          | Token  | LlamaLend Collateral |
 | -------- | ------------- | ------ | -------------------- |
-| ycvxCRV  | y (vault)     | cvxCRV | Yes                  |
 | yscvxCRV | ys (strategy) | cvxCRV | No                   |
-| yscvgCVX | ys (strategy) | cvgCVX | No                   |
+| ysCVX    | ys (strategy) | CVX    | No                   |
+| ycvxCRV (sunset) | y (vault) | cvxCRV | Yes (existing loans only) |
+
+See [Sunset Vaults](README.md#sunset-vaults) for vaults that no longer accept deposits.
 
 ### Can I withdraw anytime?
 
