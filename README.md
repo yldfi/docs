@@ -8,7 +8,6 @@ yld provides automated yield vaults on Ethereum built on [Yearn V3 yVault techno
 | ----------------------------------------------------- | ------ | ------------------------------ | ------------------------------------ | -------------------- |
 | [ycvxCRV](vaults/ycvxcrv.md) ⚠️ Deprecated, exit-only | cvxCRV | Convex auto-compounder         | 20% (15% LlamaLend Lenders + 5% yld) | Yes                  |
 | [yscvxCRV](vaults/yscvxcrv.md)                        | cvxCRV | Convex auto-compounder         | 5% (yld)                             | No                   |
-| [yscvgCVX](vaults/yscvgcvx.md)                        | cvgCVX | Tangent LiquidBoost compounder | 5% (yld)                             | No                   |
 | [ysCVX](vaults/yscvx.md)                              | CVX    | Convex auto-compounder         | 5% (yld)                             | No                   |
 
 > ycvxCRV is deprecated — Curve DAO is sunsetting its LlamaLend v1 market. New deposits are disabled; existing holders should exchange to [yscvxCRV](vaults/yscvxcrv.md) to keep earning on their cvxCRV.
