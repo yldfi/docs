@@ -47,7 +47,7 @@ The following contracts are governed by NullGovernance:
 
 The following contracts are currently managed by the [yld Multisig](https://etherscan.io/address/0x8baecb301FD723Ff35FB1D9a6d595cAD35618A6f):
 
-- yscvgCVX Strategy (sunset — see [ycvgCVX & yscvgCVX](vaults/yscvgcvx.md))
+- yscvgCVX Strategy (sunset)
 
 ## Risks
 

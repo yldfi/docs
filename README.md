@@ -15,9 +15,9 @@ These vaults no longer accept new deposits through yld.
 
 | Vault                                 | Token  | Status                                                    | Reason                                                     |
 | ------------------------------------- | ------ | --------------------------------------------------------- | ---------------------------------------------------------- |
-| [ycvxCRV](vaults/ycvxcrv.md)          | cvxCRV | Exit-only: withdrawals and existing LlamaLend loans only | Curve DAO is sunsetting the LlamaLend v1 market            |
-| [ycvgCVX](vaults/yscvgcvx.md)         | cvgCVX | Fully withdrawn, removed from the app                     | Tangent has deprecated cvgCVX and LiquidBoost              |
-| [yscvgCVX](vaults/yscvgcvx.md)        | cvgCVX | Fully withdrawn, removed from the app                     | Tangent has deprecated cvgCVX and LiquidBoost              |
+| ycvxCRV                               | cvxCRV | Exit-only: withdrawals and existing LlamaLend loans only | Curve DAO is sunsetting the LlamaLend v1 market            |
+| ycvgCVX                               | cvgCVX | Fully withdrawn, removed from the app                     | Tangent has deprecated cvgCVX and LiquidBoost              |
+| yscvgCVX                              | cvgCVX | Fully withdrawn, removed from the app                     | Tangent has deprecated cvgCVX and LiquidBoost              |
 
 ycvxCRV holders should exchange to [yscvxCRV](vaults/yscvxcrv.md) to keep earning on their cvxCRV.
 
