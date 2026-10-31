@@ -45,9 +45,13 @@ The following contracts are governed by NullGovernance:
 
 ### Managed Contracts
 
-The following contracts are currently managed by the [yld Multisig](https://etherscan.io/address/0x8baecb301FD723Ff35FB1D9a6d595cAD35618A6f):
+The following contracts are not immutable. Their privileged roles are held as listed:
 
-- yscvgCVX Strategy (sunset — see [Sunset Vaults](README.md#sunset-vaults))
+| Contract | Management & emergency admin | Performance fee recipient | Keeper |
+| --- | --- | --- | --- |
+| ysCVX Strategy | Deployer wallet [0x7bdf…91b3](https://etherscan.io/address/0x7bdfE11c4981Dd4c33E1aa62457B8773253791b3) (single key) | [yld Multisig](https://etherscan.io/address/0x8baecb301FD723Ff35FB1D9a6d595cAD35618A6f) | [Permissionless Keeper](https://etherscan.io/address/0x52605bbf54845f520a3e94792d019f62407db2f8) |
+
+The management role can change the strategy's settings, including the performance fee (capped at 50% by Yearn V3), fee recipient and keeper, and it can shut the strategy down. Shutdown stops new deposits; withdrawals stay open.
 
 ## Risks
 

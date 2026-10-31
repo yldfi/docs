@@ -24,4 +24,3 @@ These contracts remain on-chain but belong to [sunset vaults](../README.md#sunse
 | ycvxCRV Vault         | [0x95f19B19aff698169a1A0BBC28a2e47B14CB9a86](https://etherscan.io/address/0x95f19B19aff698169a1A0BBC28a2e47B14CB9a86) |
 | ycvgCVX Vault         | [0x0849b046292293f78dF3002F8461f8A7e2eC2b82](https://etherscan.io/address/0x0849b046292293f78dF3002F8461f8A7e2eC2b82) |
 | yscvgCVX Strategy     | [0x8ED5AB1BA2b2E434361858cBD3CA9f374e8b0359](https://etherscan.io/address/0x8ED5AB1BA2b2E434361858cBD3CA9f374e8b0359) |
-| cvgCVX                | [0x2191DF768ad71140F9F3E96c1e4407A4aA31d082](https://etherscan.io/address/0x2191DF768ad71140F9F3E96c1e4407A4aA31d082) |
