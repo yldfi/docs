@@ -24,9 +24,11 @@ All vaults are ERC-4626 compliant and auto-compound rewards.
 
 | Vault    | Type          | Token  | LlamaLend Collateral |
 | -------- | ------------- | ------ | -------------------- |
-| ycvxCRV  | y (vault)     | cvxCRV | Yes                  |
 | yscvxCRV | ys (strategy) | cvxCRV | No                   |
 | ysCVX    | ys (strategy) | CVX    | No                   |
+| ycvxCRV (sunset) | y (vault) | cvxCRV | Yes (existing loans only) |
+
+See [Sunset Vaults](README.md#sunset-vaults) for vaults that no longer accept deposits.
 
 ### Can I withdraw anytime?
 

@@ -43,6 +43,12 @@ The following contracts are governed by NullGovernance:
 - ycvxCRV Vault
 - yscvxCRV Strategy
 
+### Managed Contracts
+
+The following contracts are currently managed by the [yld Multisig](https://etherscan.io/address/0x8baecb301FD723Ff35FB1D9a6d595cAD35618A6f):
+
+- yscvgCVX Strategy (sunset — see [ycvgCVX & yscvgCVX](vaults/yscvgcvx.md))
+
 ## Risks
 
 DeFi always carries risks. Never deposit more than you can afford to lose.

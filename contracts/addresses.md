@@ -4,7 +4,6 @@ All yld contracts are deployed on Ethereum mainnet.
 
 | Name                  | Address                                                                                                               |
 | --------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| ycvxCRV Vault         | [0x95f19B19aff698169a1A0BBC28a2e47B14CB9a86](https://etherscan.io/address/0x95f19B19aff698169a1A0BBC28a2e47B14CB9a86) |
 | yscvxCRV Strategy     | [0xCa960E6DF1150100586c51382f619efCCcF72706](https://etherscan.io/address/0xCa960E6DF1150100586c51382f619efCCcF72706) |
 | ysCVX Strategy        | [0x1Fd0A85084fC61c397AC619c4F0bA2350eA1cE9e](https://etherscan.io/address/0x1Fd0A85084fC61c397AC619c4F0bA2350eA1cE9e) |
 | CVX                   | [0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B](https://etherscan.io/address/0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B) |
@@ -15,3 +14,14 @@ All yld contracts are deployed on Ethereum mainnet.
 | LlamaLend Gauge       | [0xa7B4B02953687Fd7f860bB6fE1c09450E01b8A71](https://etherscan.io/address/0xa7B4B02953687Fd7f860bB6fE1c09450E01b8A71) |
 | Oracle Proxy          | [0xcd22434e4c60042fb75916f57c3db91100bf5cad](https://etherscan.io/address/0xcd22434e4c60042fb75916f57c3db91100bf5cad) |
 | Oracle Implementation | [0xc1f1b19c870c06f322f397904EB46112650CE7eD](https://etherscan.io/address/0xc1f1b19c870c06f322f397904EB46112650CE7eD) |
+
+## Sunset contracts
+
+These contracts remain on-chain but belong to [sunset vaults](../README.md#sunset-vaults).
+
+| Name                  | Address                                                                                                               |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| ycvxCRV Vault         | [0x95f19B19aff698169a1A0BBC28a2e47B14CB9a86](https://etherscan.io/address/0x95f19B19aff698169a1A0BBC28a2e47B14CB9a86) |
+| ycvgCVX Vault         | [0x0849b046292293f78dF3002F8461f8A7e2eC2b82](https://etherscan.io/address/0x0849b046292293f78dF3002F8461f8A7e2eC2b82) |
+| yscvgCVX Strategy     | [0x8ED5AB1BA2b2E434361858cBD3CA9f374e8b0359](https://etherscan.io/address/0x8ED5AB1BA2b2E434361858cBD3CA9f374e8b0359) |
+| cvgCVX                | [0x2191DF768ad71140F9F3E96c1e4407A4aA31d082](https://etherscan.io/address/0x2191DF768ad71140F9F3E96c1e4407A4aA31d082) |
