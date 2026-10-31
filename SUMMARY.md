@@ -7,11 +7,6 @@
 * [yscvxCRV Strategy](vaults/yscvxcrv.md)
 * [ysCVX Strategy](vaults/yscvx.md)
 
-## Sunset Vaults
-
-* [ycvxCRV Vault](vaults/ycvxcrv.md)
-* [ycvgCVX & yscvgCVX](vaults/yscvgcvx.md)
-
 ## Contracts
 
 * [Contract Addresses](contracts/addresses.md)

@@ -26,9 +26,8 @@ All vaults are ERC-4626 compliant and auto-compound rewards.
 | -------- | ------------- | ------ | -------------------- |
 | yscvxCRV | ys (strategy) | cvxCRV | No                   |
 | ysCVX    | ys (strategy) | CVX    | No                   |
-| ycvxCRV (sunset) | y (vault) | cvxCRV | Yes (existing loans only) |
 
-See [Sunset Vaults](README.md#sunset-vaults) for vaults that no longer accept deposits.
+See [Sunset Vaults](README.md#sunset-vaults) for vaults that have been sunset.
 
 ### Can I withdraw anytime?
 
