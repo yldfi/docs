@@ -11,15 +11,11 @@ yld provides automated yield vaults on Ethereum built on [Yearn V3 yVault techno
 
 ## Sunset Vaults
 
-These vaults no longer accept new deposits through yld.
-
-| Vault                                 | Token  | Status                                                    | Reason                                                     |
-| ------------------------------------- | ------ | --------------------------------------------------------- | ---------------------------------------------------------- |
-| ycvxCRV                               | cvxCRV | Exit-only: withdrawals and existing LlamaLend loans only | Curve DAO is sunsetting the LlamaLend v1 market            |
-| ycvgCVX                               | cvgCVX | Fully withdrawn, removed from the app                     | Tangent has deprecated cvgCVX and LiquidBoost              |
-| yscvgCVX                              | cvgCVX | Fully withdrawn, removed from the app                     | Tangent has deprecated cvgCVX and LiquidBoost              |
-
-ycvxCRV holders should exchange to [yscvxCRV](vaults/yscvxcrv.md) to keep earning on their cvxCRV.
+| Vault    | Token  | Reason                                                                                                                                                         |
+| -------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ycvxCRV  | cvxCRV | Curve DAO is sunsetting the LlamaLend v1 market ([forum post](https://gov.curve.finance/t/llamalend-v1-market-deprecation-plan/11075))                        |
+| ycvgCVX  | cvgCVX | LiquidBoost has sunset cvgCVX ([Tangent proposal](https://snapshot.box/#/s:tangent-finance.eth/proposal/0xc3191a83f52633262942c2a239af278b0b5e17c506c6e9894ee3b38dd95012a1)) |
+| yscvgCVX | cvgCVX | LiquidBoost has sunset cvgCVX ([Tangent proposal](https://snapshot.box/#/s:tangent-finance.eth/proposal/0xc3191a83f52633262942c2a239af278b0b5e17c506c6e9894ee3b38dd95012a1)) |
 
 ## Quick Links
 
